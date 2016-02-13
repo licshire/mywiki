@@ -20,3 +20,7 @@ cocos run -p android -m release –android-studio
 r10c  (cocos2d-x 3.7)
 ###Android SDK版本选择
 sdk 19  (cocos2d-x 3.7)
+> sdk版本必须为19，不然会出srand错误
+
+##使用
+* [在cocos2d-x中使用sqlite](sqlite.md)
