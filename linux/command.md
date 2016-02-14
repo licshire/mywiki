@@ -5,11 +5,17 @@
 rm -f file  
 rm -rf dir  
 ```
+
 ##重启、关机  
-重启  
+###重启  
 ```
-reboot  
+shutdown -r now
 ```
+###关机
+```
+shutdown -h now
+```
+
 ##磁盘
 ```
 df -h
@@ -26,15 +32,20 @@ ps aux|grep xxx
 top
 ```  
 
-##网络
-```
-ifconfig  
-```
-
 ##端口查看
 ```
 netstat -h
 netstat -ap
 
 lsof
+```
+
+##用户
+```
+#默认主目录在/home/user
+#-m 创建主目录
+#-s 指定shell
+useradd user -m -s /bin/bash
+#设定密码
+passwd user
 ```

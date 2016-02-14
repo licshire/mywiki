@@ -1,6 +1,13 @@
 #CentOS
 <https://www.centos.org/>
 
+##版本
+```
+uname -a
+cat /etc/redhat-release
+rpm -q centos-release
+```
+
 在VirtualBox中安装CentOS，使用桥接上网 <http://www.th7.cn/system/lin/201310/46361.shtml>
 
 让 CentOS 启动时不启动桌面服务 <http://www.linuxidc.com/Linux/2012-11/73466.htm>
