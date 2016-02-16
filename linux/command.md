@@ -30,6 +30,10 @@ ps aux|grep xxx
 查看CPU和内存使用情况 
 ```
 top
+
+排序
+x   进入高亮
+shift + > 或 shift + <  改变排序
 ```  
 
 ##端口查看
@@ -48,4 +52,16 @@ lsof
 useradd user -m -s /bin/bash
 #设定密码
 passwd user
+```
+
+##时间
+```
+#查看当前时间
+date -R
+```
+
+##查找文件
+```
+which xxx
+whereis xxx
 ```

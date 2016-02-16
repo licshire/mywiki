@@ -20,7 +20,6 @@ chmod 600  authorized_keys
 #authorized_keys中加入需要登录到本机的id_rsa.pub  
 
 #配置/etc/ssh/sshd_config，只能使用秘钥登陆，不能通过输入密码登陆
-PasswordAuthentication no
 
 #修改ssh的端口为XXXX
 Port XXXX
@@ -28,11 +27,13 @@ Port XXXX
 #关闭root登陆
 PermitRootLogin no
 
-#关闭空密码登陆
-PermitEmptyPasswords no
-
 #去掉下面3句的注释
 RSAAuthentication yes
 PubkeyAuthentication yes
 AuthorizedKeysFile      .ssh/authorized_keys
+
+#关闭空密码登陆
+PermitEmptyPasswords no
+
+PasswordAuthentication no
 ```

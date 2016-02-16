@@ -19,3 +19,7 @@ Gogs <https://gogs.io/>
 
 [Git工作流](https://github.com/oldratlee/translations/blob/master/git-workflows-and-tutorials/README.md)
 
+##命令
+```
+git clone url
+```
