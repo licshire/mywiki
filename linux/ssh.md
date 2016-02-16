@@ -35,8 +35,4 @@ PermitEmptyPasswords no
 RSAAuthentication yes
 PubkeyAuthentication yes
 AuthorizedKeysFile      .ssh/authorized_keys
-
-#重启sshd服务(centos7)
-systemctl restart sshd.service
 ```
-
