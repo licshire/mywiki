@@ -3,6 +3,7 @@
 
 ##版本
 ```
+uname -a
 lsb_release -a
 ```
 
@@ -28,14 +29,12 @@ sudo apt-get install build-essential
 
 ##服务
 ```
+#前提是在/etc/init.d目录下有启动脚本
 #添加一个服务
 sudo update-rc.d ServiceName defaults
 #删除一个服务
 sudo update-rc.d ServiceName remove
 ```
-
-后台服务管理(设定/etc/init.d/ 下面的命令是否开机启动)  
-
 
 ##硬件信息
 CPU   cat /proc/cpuinfo  

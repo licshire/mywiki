@@ -65,3 +65,12 @@ date -R
 which xxx
 whereis xxx
 ```
+
+##内存占用
+```
+#按MB显示
+free -m
+
+#按人类可读方式显示
+free -h
+```
