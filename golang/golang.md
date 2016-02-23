@@ -11,3 +11,7 @@ export PATH=$PATH:~/dev/go1.2.1/bin:
 ##web
 ###Beego
 <http://beego.me/>
+
+##常用库
+###Blackfriday: a markdown processor for Go
+<https://github.com/russross/blackfriday>
