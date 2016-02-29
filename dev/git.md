@@ -21,5 +21,12 @@ Gogs <https://gogs.io/>
 
 ##命令
 ```
+#从url克隆仓库到本地
 git clone url
+
+#查看当前分支
+git branch
+
+#查看所有分支
+git branch -a
 ```
