@@ -36,6 +36,14 @@ sudo update-rc.d ServiceName defaults
 sudo update-rc.d ServiceName remove
 ```
 
+##时区
+```
+sudo tzselect
+sudo cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
+
+
+```
+
 ##硬件信息
 CPU   cat /proc/cpuinfo  
 
