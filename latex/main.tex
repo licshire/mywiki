@@ -1,0 +1,26 @@
+%mywiki
+
+%% UTF-8
+
+\documentclass[UTF8,a4paper,openany]{ctexbook}
+\usepackage{hyperref}
+\usepackage{color}
+
+\title{个人知识库}
+\author{星少}
+\date{\today}
+
+\hypersetup{
+	linkcolor=blue,
+	pdftitle={个人知识库},
+	pdfauthor={星少}
+}
+
+\CTEXsetup[name={第,章}, number=\arabic{chapter}]{chapter}
+
+\begin{document}
+	\maketitle
+	\tableofcontents
+	\include{python}
+	\include{nodejs}
+\end{document}
