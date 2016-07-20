@@ -23,3 +23,8 @@ CentOS 配置防火墙操作实例（启、停、开、闭端口） <http://blog
 CentOS 6.x使用yum快速安装MySQL 5.5 <http://webtatic.com/ http://www.linuxidc.com/Linux/2013-01/78486.htm>
 
 Linux文件权限 <http://dhjboy.blog.hexun.com/28912287_d.html>
+
+
+时间同步
+yum install ntpdate
+ntpdate us.pool.ntp.org

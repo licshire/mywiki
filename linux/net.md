@@ -5,7 +5,10 @@
 ```
 ifconfig  
 ```
-###centos7
+
 ```
-ip addr  
+网卡自动开启
+vi /etc/sysconfig/network-scripts/ifcfg-eth0
+
+ONBOOT=yes
 ```
