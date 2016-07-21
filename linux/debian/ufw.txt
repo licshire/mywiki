@@ -1,0 +1,42 @@
+#防火墙ufw
+
+##安装
+```
+apt-get install ufw
+```
+
+##命令
+```
+#查看防火墙状态 
+ufw status
+ufw status verbose
+ufw status numbered
+
+#开启防火墙 
+ufw enable
+
+#默认不能访问所有
+ufw default deny
+
+#允许端口访问
+ufw allow 22
+ufw allow 22/tcp
+
+#拒绝端口访问
+ufw deny 21
+
+
+#删除掉允许
+ufw delete allow 22
+
+#关闭
+ufw disable
+
+重置
+ufw reset
+```
+
+
+配置文件
+/etc/default/ufw
+/etc/ufw/

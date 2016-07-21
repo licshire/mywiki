@@ -1,0 +1,29 @@
+apt
+
+配置文件
+/etc/apt/sources.list
+
+安装软件
+apt-get install xxx
+
+删除软件
+apt-get remove xxx
+apt-get remove --purge xxx    //同时清除配置文件
+
+更新软件数据库
+apt-get update
+
+软件升级
+apt-get upgrade
+
+搜索软件包
+apt-cache search xxx
+
+包信息
+apt-cache show xxx
+
+
+
+
+安装完整的vim
+apt-get install vim
