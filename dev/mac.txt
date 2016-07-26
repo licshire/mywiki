@@ -1,0 +1,8 @@
+mac 
+
+
+命令行代理
+export http_proxy=http://127.0.0.1:8787
+export https_proxy=http://127.0.0.1:8787
+
+8787为lantern端口

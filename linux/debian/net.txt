@@ -1,0 +1,11 @@
+网络
+
+
+查看ip地址
+
+ip addr
+
+
+重启网络服务
+
+systemctl restart networking.service

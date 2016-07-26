@@ -1,0 +1,40 @@
+==systemctl==
+
+列出所有服务
+systemctl
+
+当前激活的服务
+systemctl -t service
+
+某个服务的状态
+systemctl status xxx
+
+启动一个服务
+systemctl start xxx
+
+停止一个服务
+systemctl stop xxx
+
+重启一个服务
+systemctl restart xxx
+
+重新加载配置文件
+systemctl reload xxx
+
+启动失败的服务
+systemctl --failed
+
+让XXX开机启动
+systemctl enable XXX
+
+让XXX取消开机启动
+systemctl disable XXX
+
+
+========
+
+重启linux
+systemctl reboot
+
+关机
+systemctl poweroff

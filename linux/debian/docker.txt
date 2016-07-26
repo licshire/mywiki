@@ -1,0 +1,45 @@
+docker
+
+查看版本
+docker version
+
+当前运行的容器
+docker ps
+本地所有的容器
+docker ps -a
+
+运行某个容器
+docker start xxx
+
+进入容器环境
+docker attach xxx
+
+删除某个容器
+docker rm xxx
+
+验证版本安装
+docker run hello-world
+
+本地镜像
+docker images
+
+删除本地镜像
+docker rmi -f <img id>
+
+运行并进入bash
+docker run -t -i centos:6 /bin/bash
+
+
+docker run -d ubuntu 执行的命令
+
+端口映射
+docker run -d -p 80:5000 ubuntu 执行的命令
+
+--name
+docker run -d -P --name web training/webapp python app.py
+
+
+docker tag 5db5f8471261 ouruser/sinatra:devel
+
+重新制作一个镜像
+docker commit 614122c0aabb aoct/apache2
